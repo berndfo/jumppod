@@ -12,5 +12,5 @@ docker push brainlounge/jumpod
 
 ## Usage
 
-Use is described in detail [in this blog post](https://blog.brainlounge.de/memoryleaks/how-to-deploy-a-jump-pod-on-kubernetes/).
+Use is described in detail [in this blog post](http://blog.brainlounge.de/memoryleaks/how-to-deploy-a-jump-pod-on-kubernetes/).
 Especially, see section "Bonus track #2" at the end of the post.
