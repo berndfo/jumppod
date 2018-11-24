@@ -18,3 +18,7 @@ Especially, see section "Bonus track #2" at the end of the post.
 
 The following architecture from the blog post gives an overview where the jump pod fits in:
 ![overview](http://blog.brainlounge.de/memoryleaks/2018-11-jump-pod-on-kubernetes-overview.png)
+
+The essence of how to start the jump pod is this command line, given you fill in appropriate namespace and service account names:
+
+kubectl run jumppod-1 -n <MYNAMESPACE> --image=brainlounge/jumppod:ubuntu-18.04 --serviceaccount='<MYSERVICEACCOUNT' -ti
