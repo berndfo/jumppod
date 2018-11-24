@@ -21,4 +21,4 @@ The following architecture from the blog post gives an overview where the jump p
 
 The essence of how to start the jump pod is this command line, given you fill in appropriate namespace and service account names:
 
-kubectl run jumppod-1 -n <MYNAMESPACE> --image=brainlounge/jumppod:ubuntu-18.04 --serviceaccount='<MYSERVICEACCOUNT' -ti
+`kubectl run jumppod-1 -n <MYNAMESPACE> --image=brainlounge/jumppod:ubuntu-18.04 --serviceaccount='<MYSERVICEACCOUNT' -ti`
